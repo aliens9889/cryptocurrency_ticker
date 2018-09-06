@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+import Tickers from './components/Tickers/Tickers';
 import './App.css';
 
 class App extends Component {
@@ -9,6 +10,7 @@ class App extends Component {
         <header className="App-header">
           <h2>Cryptocurrency Ticker</h2>
         </header>
+        <Tickers />
       </div>
     );
   }
