@@ -16,8 +16,8 @@ const cryptocurrency = (props) => {
   } = props.data;
 
   return (
-    <li key={id}>
-      <p>{name} ({symbol})</p>
+    <li className={"cryptocurrency " + id} key={id}>
+      <p className="cryptocurrency-name">{name} ({symbol})</p>
       <h1>${(+price_usd).toFixed(2)}</h1>
       <p>{percent_change_1h}% 1h</p>
       <p>{percent_change_24h}% 24h</p>

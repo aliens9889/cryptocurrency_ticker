@@ -1,0 +1,11 @@
+.Tickers {
+  list-style-type: none;
+  padding: 0;
+  display: inline-flex;
+}
+
+@media only screen and (max-width: 50rem) {
+  .Tickers {
+    display: inherit;
+  }
+}
