@@ -4,7 +4,15 @@
 
 .App-header {
   background-color: #222;
-  padding: 20px;
+  padding: 1rem;
+  margin: 0;
+  font-size: 1.25rem;
   color: white;
+}
+
+@media only screen and (max-width: 50rem) {
+  .App {
+    padding-bottom: 8rem;
+  }
 }
 

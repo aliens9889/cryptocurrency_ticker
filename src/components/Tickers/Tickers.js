@@ -60,8 +60,9 @@ class Tickers extends Component {
     ));
 
     return (
-      <div>
-       <ul>{currencies}</ul> 
+      <div className="Tickers-container">
+       <ul className="Tickers">{currencies}</ul> 
+       <p>Information updated every minute courtesy of <a href="https://coinmarketcap.com/">coinmarketcap.com</a></p> 
       </div>
     )
   }
