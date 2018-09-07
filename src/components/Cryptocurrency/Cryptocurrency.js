@@ -18,7 +18,7 @@ const cryptocurrency = (props) => {
   return (
     <li key={id}>
       <p>{name} ({symbol})</p>
-      <h1>${price_usd}</h1>
+      <h1>${(+price_usd).toFixed(2)}</h1>
       <p>{percent_change_1h}% 1h</p>
       <p>{percent_change_24h}% 24h</p>
       <p>{percent_change_7d}% 7d</p>
